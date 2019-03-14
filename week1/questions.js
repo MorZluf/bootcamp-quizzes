@@ -74,7 +74,7 @@ const questions = {
     7: {
         question: `What is the value of x in this expression: 
                    let x = [ {human: {name: ‘Daena’, age: 31} } ][0].age`,
-        answers: {
+        answers: {  
             a: `31`, 
             b: `Throws an error`,
             c: `undefined`,
@@ -206,6 +206,7 @@ const questions = {
             d: `Returns the element with a class of “box”`
         }
     },
+    
     20: {
         question: `If we have an element with an id of “box” in our HTML,
                    how can we change its background color to orange?`,
