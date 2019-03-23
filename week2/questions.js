@@ -104,7 +104,7 @@ const questions = {
             let _memories = ["that time at band camp", "yesterday's breakfast"]
     
             const Brain = function(){
-                const dayDream = () => _memories
+                const dayDream = () => _memories 
                 const experience = memory => _memories.push(memory)
                 const forget = memory => _memories.splice(_memories.indexOf(memory), 1)
                 const spazz = () => console.log("bleurg")
